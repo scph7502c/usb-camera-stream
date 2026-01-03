@@ -7,15 +7,11 @@ A minimal, production-ready example of real-time webcam streaming using **FastAP
 - Works out of the box with a local webcam: `cv2.VideoCapture(0)`
 - Managed with Poetry
 
----
-
 ## What you get
 
 - **FastAPI** app exposing `/video` that continuously yields JPEG frames
 - **OpenCV** capture/encode pipeline (`VideoCapture` → `imencode(".jpg")`)
 - **Poetry** project configuration in `pyproject.toml` for clean dependency management
-
----
 
 ##  Requirements
 
@@ -25,7 +21,6 @@ A minimal, production-ready example of real-time webcam streaming using **FastAP
 
 > If you are on Windows or need GUI/high-level codecs, you may prefer `opencv-python` over `opencv-python-headless`. This repo uses `opencv-python-headless` for lightweight server environments.
 
----
 
 ## Installation (Poetry)
 
