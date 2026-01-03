@@ -1,17 +1,11 @@
 
 # FastAPI Video Stream (MJPEG) with OpenCV
 
-A minimal, production-ready example of real-time webcam streaming using **FastAPI** and **OpenCV**, packaged with **Poetry** for Python 3.12.
+Minimal example of real-time webcam streaming using **FastAPI** and **OpenCV**, packaged with **Poetry** for Python 3.12.
 
 - Streams MJPEG at `GET /video` using `multipart/x-mixed-replace`
 - Works out of the box with a local webcam: `cv2.VideoCapture(0)`
 - Managed with Poetry
-
-## What you get
-
-- **FastAPI** app exposing `/video` that continuously yields JPEG frames
-- **OpenCV** capture/encode pipeline (`VideoCapture` → `imencode(".jpg")`)
-- **Poetry** project configuration in `pyproject.toml` for clean dependency management
 
 ##  Requirements
 
